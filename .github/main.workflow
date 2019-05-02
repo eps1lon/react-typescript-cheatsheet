@@ -1,6 +1,6 @@
 workflow "CI" {
   on = "push"
-  resolves = ["install", "check-format"]
+  resolves = ["check-format"]
 }
 
 action "install" {
