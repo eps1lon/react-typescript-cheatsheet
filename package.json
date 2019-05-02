@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier --write \"**/*.md\"",
+    "format:check": "prettier --list-different \"**/*.md\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
